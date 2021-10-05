@@ -12,7 +12,7 @@ export const Avatar = ({imagen}) =>{;
           borderRadius:imagen,
           width:'200px',
           height:'200px',
-          marginTop:'100px',
+          marginTop:'0px',
           marginLeft:'100px'
             
         }} />

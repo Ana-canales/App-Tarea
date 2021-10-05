@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <AlertSB altura="60px" ancho="300px" colorFondo="magenta" colorFuente="white" texto="A.J"></AlertSB>
-       <AlertSB altura="60px" ancho="300px" colorFondo="magenta" colorFuente="white" texto="R:C"></AlertSB>
+      <AlertSB altura="60px" ancho="300px" colorFondo="magenta" colorFuente="white" texto="Pancracio Del Socorro"></AlertSB>
+       {/*<AlertSB altura="60px" ancho="300px" colorFondo="magenta" colorFuente="white" texto=""></AlertSB>*/}
        
        <Avatar 
          imagen= " 500px"
