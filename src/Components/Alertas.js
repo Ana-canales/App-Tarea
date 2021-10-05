@@ -1,13 +1,19 @@
-const AlertSB = () =>{
+const AlertSB = ({altura, ancho, colorFondo, colorFuente, texto}) =>{
     return(
         <div>
-            <div>
-            Default Alert
+            <div style={{
+                width: ancho,
+                heigth: altura,
+                background:colorFondo,
+                font: colorFuente,
+                borderRadius: '3px'
+                }}>
+                    {texto}
             </div>
-            Success Alert
+            <br />
         </div>
     )
 }
 export{
     AlertSB
-}
+};
