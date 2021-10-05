@@ -7,8 +7,6 @@ const AlertSB = ({altura, ancho, colorFondo, colorFuente, texto}) =>{
                 background:colorFondo,
                 font: colorFuente,
                 borderRadius: '3px',
-                marginTop:'100px',
-                marginLeft:'38%'
 
                 }}>
                     {texto}
