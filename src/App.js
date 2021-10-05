@@ -1,11 +1,12 @@
 //import logo from './logo.svg';
 //import './App.css';
+import {AlertSB} from "./Components/Alertas"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <h1>Hola</h1>
+       <AlertSB></AlertSB>
       </header>
     </div>
   );
