@@ -8,11 +8,11 @@ function App() {
     <div className="App">
       <header className="App-header">
       <AlertSB 
-      altura="60px" ancho="300px" colorFondo="magenta" colorFuente="white" texto="Pancracio Del Socorro">
+      altura="60px" ancho="300px" colorFondo="magenta" colorFuente="white" texto="Exito">
 
       </AlertSB>
        <AlertSB 
-       altura="60px" ancho="300px" colorFondo="magenta" colorFuente="white" texto="eliseo de los angeles"></AlertSB>
+       altura="60px" ancho="300px" colorFondo="magenta" colorFuente="white" texto="Denegado"></AlertSB>
        
        <Avatar 
          imagen= " 500px"
