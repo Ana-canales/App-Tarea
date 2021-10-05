@@ -6,7 +6,10 @@ const AlertSB = ({altura, ancho, colorFondo, colorFuente, texto}) =>{
                 heigth: altura,
                 background:colorFondo,
                 font: colorFuente,
-                borderRadius: '3px'
+                borderRadius: '3px',
+                marginTop:'100px',
+                marginLeft:'38%'
+
                 }}>
                     {texto}
             </div>
